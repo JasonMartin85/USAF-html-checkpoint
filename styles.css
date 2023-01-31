@@ -1,0 +1,54 @@
+body {
+  margin: 0%;
+}
+
+header {
+  color: white;
+  background-color: #343A40;
+  padding: .5%;
+  display: grid;
+  grid-template-columns: 8% 6% 6% 55% 15% 10%;
+
+}
+
+header .searchButton {
+  margin-left: 3%;
+  color: #FFC108;
+  border: 1px solid#FFC108;
+  background-color: #343A40;
+  border-radius: 4px;
+}
+
+header a:link {
+  color:white;
+  text-decoration: none;
+}
+
+.loginContainer {
+  margin-left: 25%;
+  margin-right: 25%;
+  display:flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.loginContainer h1 {
+  align-self: center;
+}
+
+.loginContainer .userLogin {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 4%;
+  width: 100%;
+}
+
+.loginContainer button {
+  color: white;
+  background-color: #007BFF;
+  border: none;
+  padding: 1%;
+}
+
+
