@@ -67,4 +67,19 @@ header a:visited {
   padding: 1%;
 }
 
+.movieCoverResults {
+  display:grid;
+  grid-template-columns: 23.5% 23.5% 23.5% 23.5%;
+  grid-template-rows: repeat(1fr) 30px;
+  column-gap: 1%;
+  row-gap: 5%;
+  margin: 3%;
+
+}
+
+.movieCoverResults img {
+  width: 100%;
+  /* border: 2px solid black; */
+}
+
 
