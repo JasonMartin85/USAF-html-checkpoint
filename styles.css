@@ -6,13 +6,15 @@ header {
   color: white;
   background-color: #343A40;
   padding: .5%;
+  padding-top:1%;
+  padding-bottom:1%;
   display: grid;
   grid-template-columns: 8% 6% 6% 55% 15% 10%;
 
 }
 
 header .searchButton {
-  margin-left: 3%;
+  margin-left: 4%;
   color: #FFC108;
   border: 1px solid#FFC108;
   background-color: #343A40;
@@ -21,6 +23,11 @@ header .searchButton {
 
 header a:link {
   color:white;
+  text-decoration: none;
+}
+
+header a:visited {
+  color: white;
   text-decoration: none;
 }
 
@@ -42,6 +49,15 @@ header a:link {
   flex-direction: column;
   margin-bottom: 4%;
   width: 100%;
+}
+
+.userLogin label {
+  margin-bottom: 1%;
+}
+
+.userLogin input {
+  border-color: rgba(217, 209, 209, 0.912);
+  border-radius: 4px;
 }
 
 .loginContainer button {
